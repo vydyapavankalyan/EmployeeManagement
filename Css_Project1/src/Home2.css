@@ -1,0 +1,36 @@
+.class1{
+    color: #fffb00;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(67, 147, 161);
+    border-style:dotted;
+ 
+}
+
+.class2{
+    color: #324297;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(164, 40, 81);
+    border-style:dashed;
+ 
+}
+.div1{
+    color: #2b2eb6;
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    border-style: ridge;
+    float: left;
+
+    
+}
+.div2{
+    color: #8e2f60;
+    width: 50%;
+    height: 150%;
+    background-color: rgb(62, 49, 126);
+    border-style: ridge;
+    float: left;
+    
+}

@@ -1,0 +1,31 @@
+/* src/components/Board.css */
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+  }
+  
+  /* src/components/Square.css */
+  .square {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .square.white {
+    background-color: #f0d9b5;
+  }
+  .square.black {
+    background-color: #b58863;
+  }
+  
+  /* src/components/Piece.css */
+  .piece {
+    font-size: 32px;
+    text-align: center;
+  }
+  .piece.P,
+  .piece.p { color: #fff; }
+  .piece.R,
+  .piece.r { color: #f00; }
